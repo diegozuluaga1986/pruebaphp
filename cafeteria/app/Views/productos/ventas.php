@@ -9,10 +9,11 @@
 </head>
 <body>
 SISTEMA DE VENTAS
-<form method="post" action="<?php echo base_url() ?>productos/editar">
+<form method="post" action="<?=  site_url('editar/1/') ?>">
 		<label for="codigo">Código de ID</label>
-		<input autocomplete="off" autofocus class="form-control" name="codigo" required type="text" id="codigo" placeholder="Escribe el código" >
+		<input autocomplete="off" autofocus class="form-control" name="codigo" required type="text" id="ID" placeholder="Escribe el código" >
 	</form>
+
 <br/>
 <br/>
        <table class="table table-light">
